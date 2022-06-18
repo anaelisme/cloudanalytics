@@ -71,7 +71,7 @@ with col2:
 		        st.markdown(web_str)  
 		
 if city_name:        
-    show_hist = st.beta_expander(label = 'Last 5 Days History')
+    show_hist = st.expander(label = 'Last 5 Days History')
     with show_hist:
             start_date_string = st.date_input('Current Date')
             #start_date_string = str('2021-06-26')
