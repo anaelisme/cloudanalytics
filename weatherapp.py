@@ -1,10 +1,8 @@
-
 # Modules
 import streamlit as st
 import requests
 from datetime import datetime , timedelta
 import pandas as pd
-import matplotlib.pyplot as plt
 import time 
 
 # INSERT YOUR API  KEY WHICH YOU PASTED IN YOUR secrets.toml file 
